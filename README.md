@@ -1,4 +1,4 @@
-# Unity_pool 42
+# Unity Pool 42
 
 ## Download the builds
 You can download the different apps by clicking on the links below:
