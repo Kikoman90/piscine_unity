@@ -50,6 +50,11 @@
      <Compile Include="Assets\ex01\Scripts\Cube.cs" />
      <Compile Include="Assets\ex01\Scripts\CubeSpawner.cs" />
      <Compile Include="Assets\ex01\Scripts\TextMove.cs" />
+     <Compile Include="Assets\ex02\Scripts\Game_init.cs" />
+     <Compile Include="Assets\ex02\Scripts\Golf_course.cs" />
+     <Compile Include="Assets\ex02\Scripts\Player.cs" />
+     <Compile Include="Assets\ex02\Scripts\bonus_bunny.cs" />
+     <Compile Include="Assets\ex02\Scripts\moving_button.cs" />
  <Reference Include="UnityEngine.Advertisements">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Advertisements/UnityEngine.Advertisements.dll</HintPath>
  </Reference>
