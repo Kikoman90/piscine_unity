@@ -92,11 +92,11 @@ public class playerScript_ex02 : MonoBehaviour {
 	}
 
 	public void			resetLevel() {
-		SceneManager.LoadSceneAsync ("ex02");
+		SceneManager.LoadScene ("ex02");
 	}
 
 	public void			loadNextLevel() {
-		SceneManager.LoadSceneAsync ("ex03");
+		SceneManager.LoadScene ("ex03");
 	}
 
 	void				Update() {
