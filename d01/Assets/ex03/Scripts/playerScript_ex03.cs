@@ -127,7 +127,11 @@ public class playerScript_ex03 : MonoBehaviour {
 		} else {
 			_rb.constraints |= RigidbodyConstraints2D.FreezePositionX;
 		}
-		if ((hasReachedExit [0] == true && hasReachedExit [1] == true && hasReachedExit [2] == true) || Input.GetKeyDown ("n"))
+		if ((hasReachedExit [0] == true && hasReachedExit [1] == true && hasReachedExit [2] == true) || Input.GetKeyDown ("n")) {
+			hasReachedExit [0] = false;
+			hasReachedExit [1] = false;
+			hasReachedExit [2] = false;
 			loadNextLevel ();
+		}
 	}
 }
